@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Open Sans", Helvetica, Arial, sans-serif;
+  text-align:center;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+.title {
+  margin-bottom: 5px;
+}
+.sub {
+  float: right;
+}
+.glass {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+.card {
+  display: inline-block;
+  padding: 40px;
+  border-radius: 6px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,18 @@
+{
+  "name": "daily-jokes",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.4",
+    "googleapis": "0.4.2",
+    "jade": "*",
+    "passport": "~0.1.17",
+    "passport-google-oauth": "~0.1.5",
+    "mongojs": "~0.9.6",
+    "connect-mongo": "~0.4.0",
+    "cron": "~1.0.1",
+    "request": "~2.27.0"
+  }
+}

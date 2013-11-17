@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .card
+    h1.title Daily Jokes for 
+      span.glass Google Glass™
+    sub.sub by 
+      a(href='http://zolmeister.com') Zolmeister
+    br
+    if !user
+      p Sign up to get jokes daily
+      a.pure-button.pure-button-primary(href='/signup') Sign Up
+    else
+      p Thanks for signing up, you are now subscribed
+      a.pure-button(href='/unsubscribe') Unsubscribe
